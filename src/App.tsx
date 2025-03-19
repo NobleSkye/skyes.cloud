@@ -94,7 +94,7 @@ function HomePage() {
       <section className="bg-slate-800 py-20">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <StatCard number="99.9%" text="Uptime" />
+            <StatCard number="99.9%*" text="Uptime" />
             <StatCard number="150+" text="Countries" />
             <StatCard number="50k+" text="Customers" />
             <StatCard number="24/7" text="Support" />
@@ -435,7 +435,7 @@ function Footer() {
             <span className="text-xl font-bold text-white">skyes.cloud</span>
           </Link>
           <div className="text-sm">
-            © 2024 skyes.cloud. All rights reserved.
+            © 2025 <a href="https://nobleskye.dev" className="text-sky-400 hover:underline">NobleSkye. All rights reserved.</a>
           </div>
         </div>
       </div>
